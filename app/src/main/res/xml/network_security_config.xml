@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">http://ec2-34-201-45-69.compute-1.amazonaws.com:3000/api/(ex: 127.0.0.1)</domain>
+    </domain-config>
+</network-security-config>
